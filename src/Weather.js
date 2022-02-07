@@ -17,7 +17,6 @@ export default function Weather() {
                 <li>Snowing</li>
             </ul>
             <ul>
-                <li></li>
                 <li>Humidity: 80%</li>
                 <li>Wind: 5m/s</li>
             </ul>
