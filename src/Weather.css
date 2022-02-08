@@ -1,25 +1,54 @@
-form, .user-input {
-    padding: 8px;
+.Weather {
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    padding: 20px;
+    background: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%);
 }
 
-.user-input {
-    margin-right: 10px;
+.Weather h1 {
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: navy;
 }
 
-ul {
+.Weather ul {
     list-style: none;
+    padding: 0;
+    color: darkslategray;
 }
 
-.current-temp {
-    font-size: 40px;
+.Weather .weather-date {
+    margin-left: 10px;
 }
 
-.testing {
+.Weather .weather-temperature {
     display: flex;
     justify-content: flex-end;
 }
 
-.testing-two {
-    display: flex;
-    justify-content: flex-start;
+.Weather .weather-img {
+    height: 62px;
+}
+
+.Weather .current-temp {
+    font-size: 50px;
+    line-height: 62px;
+    color: navy;
+}
+
+.Weather .units {
+    position: relative;
+    top: -27px;
+    font-size: 15px;
+    color: darkslategrey;
+}
+
+.Weather .weather-details {
+    font-size: 12px;
+    color: navy;
+}
+
+.Weather .search-button {
+    background: navy;
+    color: white;
 }

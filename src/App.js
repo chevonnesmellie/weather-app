@@ -6,7 +6,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
-      <div className="container WeatherApp">
+      <div className="container">
         <Weather />
       </div>
       <Footer />
