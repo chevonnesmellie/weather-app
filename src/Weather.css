@@ -1,26 +1,25 @@
-form, .user-input, .search-button {
-    padding: 10px;
+form, .user-input {
+    padding: 8px;
 }
 
 .user-input {
     margin-right: 10px;
 }
 
-
 ul {
     list-style: none;
 }
 
-.weather-display {
-    display: flex;
-    justify-content: space-between;
-}
-
-.current-city {
-    font-size: 30px;
-}
-
 .current-temp {
     font-size: 40px;
-    margin-right: 120px;
+}
+
+.testing {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.testing-two {
+    display: flex;
+    justify-content: flex-start;
 }
