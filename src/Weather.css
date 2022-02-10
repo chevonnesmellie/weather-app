@@ -26,8 +26,9 @@
     justify-content: flex-end;
 }
 
-.Weather .weather-img {
-    height: 62px;
+.Weather canvas {
+    height:56px;
+    margin-right: 5px;
 }
 
 .Weather .current-temp {

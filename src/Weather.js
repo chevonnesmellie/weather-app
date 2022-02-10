@@ -19,7 +19,7 @@ export default function Weather(props) {
             description: response.data.weather[0].description, 
             humidity: response.data.main.humidity, 
             wind: response.data.wind.speed, 
-            icon: response.data.weather[0].icon});
+            iconCode: response.data.weather[0].icon});
     }
 
     function handleCityChange(event) {
