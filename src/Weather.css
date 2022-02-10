@@ -51,4 +51,11 @@
 .Weather .search-button {
     background: navy;
     color: white;
+    transition: all 2ms ease-in-out;
+}
+
+.Weather .search-button:hover {
+    background: rgb(221, 221, 228);
+    color: navy;
+    border-color: navy;
 }
