@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Puff } from 'react-loader-spinner';
+import FormattedDate from "./FormattedDate";
 
 
 import "./Weather.css";
@@ -11,7 +12,7 @@ export default function Weather(props) {
     function handleResponse(response) {
         setWeatherData({
             ready: true, 
-            date: "Monday 18:45", 
+            date: new Date(response.data.dt * 1000), 
             name: response.data.name, 
             temperature: response.data.main.temp, 
             description: response.data.weather[0].description, 
@@ -39,7 +40,7 @@ export default function Weather(props) {
                 <div className="row">
                     <div className="col-6">
                         <ul className="weather-date">
-                            <li>{weatherData.date}</li>
+                            <li><FormattedDate date={weatherData.date} /></li>
                          </ul>
                     </div>
                     <div className="col-4">
@@ -65,7 +66,7 @@ export default function Weather(props) {
         return (
             <div className="Weather">
                 <div>
-                    <Puff className="m-5" color='navy' height="100" width="100" ariaLabel="loading" />
+                    <Puff color='navy' height="100" width="100" ariaLabel="loading" />
                 </div>
             </div>
         );
