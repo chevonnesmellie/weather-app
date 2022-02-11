@@ -31,5 +31,4 @@ export default function WeatherIcon(props) {
         animate={true}
       />
     )
-    console.log(props.iconCode);
 }
