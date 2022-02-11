@@ -56,7 +56,7 @@
 }
 
 .Weather .search-button:hover {
-    background: rgb(221, 221, 228);
-    color: navy;
-    border-color: navy;
+    background: rgb(245, 127, 146);
+    color: white;
+    border-color: #CED4DA;
 }
