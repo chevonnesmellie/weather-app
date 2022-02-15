@@ -11,6 +11,11 @@
     color: navy;
 }
 
+.weather-temperature canvas {
+    height: 56px;
+    margin-right: 5px;
+}
+
 .Weather ul {
     list-style: none;
     padding: 0;
@@ -24,11 +29,6 @@
 .Weather .weather-temperature {
     display: flex;
     justify-content: flex-end;
-}
-
-.Weather canvas {
-    height:56px;
-    margin-right: 5px;
 }
 
 .Weather .current-temp {
@@ -46,7 +46,7 @@
 
 .Weather .weather-details {
     font-size: 12px;
-    color: navy;
+    color: darkslategrey;
 }
 
 .Weather .search-button {
