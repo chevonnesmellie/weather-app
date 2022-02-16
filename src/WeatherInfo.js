@@ -23,7 +23,7 @@ export default function WeatherInfo(props) {
                     </div>
                     <div className="col-2">
                         <ul className="weather-details">
-                            <li class="text-capitalize">{props.data.description}</li>
+                            <li className="text-capitalize">{props.data.description}</li>
                             <li>Humidity: {props.data.humidity}%</li>
                             <li>Wind: {Math.round(props.data.wind)} mph</li>
                         </ul>

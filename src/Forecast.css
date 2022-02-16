@@ -1,0 +1,13 @@
+.Forecast {
+    text-align: center;
+}
+
+.Forecast .DailyForecast-mintemp {
+    opacity: 0.6;
+    margin-left: 5px;
+}
+
+.Forecast-temp {
+    color:rgb(245, 127, 146);
+    font-weight: bold;
+}

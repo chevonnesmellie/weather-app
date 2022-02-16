@@ -1,0 +1,9 @@
+.DailyForecast-day {
+    margin-bottom: 4px;
+    color: rgb(245, 127, 146);
+    font-weight: bold;
+}
+
+.DailyForecast-day canvas {
+    height: 10px;
+}
