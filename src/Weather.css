@@ -19,7 +19,7 @@
 .Weather ul {
     list-style: none;
     padding: 0;
-    color: darkslategray;
+    color: #f57f92;
 }
 
 .Weather .weather-date {
@@ -46,7 +46,7 @@
 
 .Weather .weather-details {
     font-size: 12px;
-    color: darkslategrey;
+    color: rgb(245, 127, 146);
 }
 
 .Weather .search-button {
@@ -59,4 +59,8 @@
     background: rgb(245, 127, 146);
     color: white;
     border-color: #CED4DA;
+}
+
+.bold {
+    font-weight: bold;
 }

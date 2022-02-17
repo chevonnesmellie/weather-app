@@ -7,7 +7,6 @@
     margin-left: 5px;
 }
 
-.Forecast-temp {
+.Forecast .DailyForecast-temp {
     color:rgb(245, 127, 146);
-    font-weight: bold;
 }
